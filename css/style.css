@@ -1075,6 +1075,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 768.98px) {
   .menu__body {
     width: 0;
+    visibility: hidden;
   }
   .menu__body:before {
     content: '';
@@ -1113,6 +1114,7 @@ body::-webkit-scrollbar-thumb:hover {
     left: 0;
     padding: 60px 10px 30px 10px;
     z-index: 0;
+    visibility: visible;
   }
   .menu__body._active:before {
     content: '';
@@ -3343,6 +3345,12 @@ body::-webkit-scrollbar-thumb:hover {
 #map [class*="ground-pane"] {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+}
+
+@media (max-width: 992px) {
+  #map {
+    height: calc(70vh - 70px);
+  }
 }
 
 .form-section {
