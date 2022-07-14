@@ -13,8 +13,8 @@
 
 @font-face {
   font-family: 'Conv';
-  src: url("/fonts/FreshteahealthyRegular-1Gya0.eot");
-  src: local("☺"), url("/fonts/FreshteahealthyRegular-1Gya0.woff") format("woff"), url("/fonts/FreshteahealthyRegular-1Gya0.ttf") format("truetype"), url("/fonts/FreshteahealthyRegular-1Gya0.svg") format("svg");
+  src: url("../fonts/FreshteahealthyRegular-1Gya0.eot");
+  src: local("☺"), url("../fonts/FreshteahealthyRegular-1Gya0.woff") format("woff"), url("../fonts/FreshteahealthyRegular-1Gya0.ttf") format("truetype"), url("../fonts/FreshteahealthyRegular-1Gya0.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -868,13 +868,13 @@ body {
   body.lock {
     overflow: hidden;
   }
-  
-  body._lock {
-  overflow: hidden;
-  }
 }
 
 body.lock {
+  overflow: hidden;
+}
+
+body._lock {
   overflow: hidden;
 }
 
