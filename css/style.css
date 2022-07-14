@@ -868,6 +868,10 @@ body {
   body.lock {
     overflow: hidden;
   }
+  
+  body._lock {
+  overflow: hidden;
+  }
 }
 
 body.lock {
