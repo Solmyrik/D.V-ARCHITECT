@@ -13,6 +13,9 @@
 A multi-page website of an apartment complex with sliders made using swiper library, gallery, yandex maps, smooth scrolling animations
 
 
+![Video-Gif720p](https://github.com/Solmyrik/D.V-ARCHITECT/blob/main/gitimage/D.V%20%E2%80%94%20ARCHITECT%20-%20Google%20Chrome%202022-10-29%2019-17-52.gif?raw=true)
+
+
 
 ## Project technologies
 
